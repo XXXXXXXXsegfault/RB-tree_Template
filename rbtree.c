@@ -214,7 +214,7 @@ RBTREE_TYPE *RBTREE_DELETE(RBTREE_TYPE **root,RBTREE_TYPE *node)
 			else
 			{
 				*root=n->RBTREE_RIGHT;
-				n->RBTREE_LEFT->RBTREE_PARENT=0;
+				n->RBTREE_RIGHT->RBTREE_PARENT=0;
 				(*root)->RBTREE_COLOR=RBTREE_BLACK;
 				return n1;
 			}
