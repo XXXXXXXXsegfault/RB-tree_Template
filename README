@@ -1,0 +1,2 @@
+This is an RB-tree "template" written in C.
+To use it, #define some macros and #include the file rbtree.c. Read rbtree.c for more information.
